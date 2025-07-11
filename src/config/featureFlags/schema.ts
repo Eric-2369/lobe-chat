@@ -53,8 +53,8 @@ export const DEFAULT_FEATURE_FLAGS: IFeatureFlags = {
   language_model_settings: true,
   provider_settings: true,
 
-  openai_api_key: true,
-  openai_proxy_url: true,
+  openai_api_key: false,
+  openai_proxy_url: false,
 
   create_session: true,
   edit_agent: true,
@@ -62,14 +62,14 @@ export const DEFAULT_FEATURE_FLAGS: IFeatureFlags = {
   plugins: true,
   dalle: true,
 
-  check_updates: true,
-  welcome_suggest: true,
+  check_updates: false,
+  welcome_suggest: false,
   token_counter: true,
 
-  knowledge_base: true,
+  knowledge_base: false,
   rag_eval: false,
 
-  clerk_sign_up: true,
+  clerk_sign_up: false,
 
   cloud_promotion: false,
 
